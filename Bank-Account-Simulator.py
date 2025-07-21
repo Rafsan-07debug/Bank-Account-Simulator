@@ -29,7 +29,7 @@ class BankAccount:
         return self._transaction
 
 
-owner = BankAccount("asdf", 50000)
+owner = BankAccount("Rafsan Rubaet Hossain", 50000)
 owner.deposit(500)
 owner.withdrawal(500)
 print(owner.get_balance())
